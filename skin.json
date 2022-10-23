@@ -1,26 +1,26 @@
 {
-	"name": "Example",
+	"name": "Eithalica Wiki",
 	"version": "1.0.0",
 	"author": [
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:Example",
-	"descriptionmsg": "example-skin-desc",
-	"namemsg": "skinname-example",
+	"url": "https://eithalica.world/lore/w/index.php",
+	"descriptionmsg": "eithalica-skin-desc",
+	"namemsg": "skinname-eithalica",
 	"license-name": "CC0-1.0",
 	"type": "skin",
 	"requires": {
 		"MediaWiki": ">= 1.38.0"
 	},
 	"ValidSkinNames": {
-		"example": {
+		"eithalica": {
 			"class": "SkinMustache",
 			"args": [
 				{
-					"name": "example",
+					"name": "eithalica",
 					"responsive": true,
 					"messages": [
-						"example-no-categories",
+						"eithalica-no-categories",
 						"sitetitle",
 						"search",
 						"otherlanguages",
@@ -30,22 +30,22 @@
 					"styles": [
 						"mediawiki.ui.icon",
 						"mediawiki.ui.button",
-						"skins.example.styles"
+						"skins.eithalica.styles"
 					],
 					"scripts": [
-						"skins.example"
+						"skins.eithalica"
 					]
 				}
 			]
 		}
 	},
 	"MessagesDirs": {
-		"Example": [
+		"Eithalica": [
 			"i18n"
 		]
 	},
 	"ResourceModules": {
-		"skins.example.styles": {
+		"skins.eithalica.styles": {
 			"class": "ResourceLoaderSkinModule",
 			"features": {
 				"normalize": true,
@@ -66,7 +66,7 @@
 				"resources/skin.less"
 			]
 		},
-		"skins.example": {
+		"skins.eithalica": {
 			"targets": [
 				"desktop",
 				"mobile"
@@ -78,10 +78,10 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Example"
+		"remoteSkinPath": "Eithalica"
 	},
 	"ResourceModuleSkinStyles": {
-		"example": {
+		"eithalica": {
 			"+ext.echo.styles.badge": "resources/extensions/echo.styles.badge.less"
 		}
 	},

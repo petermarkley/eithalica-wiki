@@ -4,7 +4,7 @@
 			"..."
 		]
 	},
-	"skinname-example": "Example",
-	"example-desc": "An example skin showcasing the best practices",
-	"example-no-categories": "No categories"
+	"skinname-eithalica": "Eithalica Wiki",
+	"eithalica-desc": "The MediaWiki skin used at https://eithalica.world/lore/w/index.php",
+	"eithalica-no-categories": "No categories"
 }
