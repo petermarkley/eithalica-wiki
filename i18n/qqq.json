@@ -5,6 +5,6 @@
 		]
 	},
 	"skinname-eithalica": "{{optional}}",
-	"eithalica-desc": "{{desc|what=skin|name=Example|url=https://www.mediawiki.org/wiki/Skin:Example}}",
+	"eithalica-skin-desc": "{{desc|what=skin|name=Example|url=https://www.mediawiki.org/wiki/Skin:Example}}",
 	"eithalica-no-categories": "Message to show when no categories available"
 }
