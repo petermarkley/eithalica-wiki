@@ -1,4 +1,4 @@
-MediaWiki skin for Eithalica Wiki
+# MediaWiki skin for Eithalica Wiki
 
 This skin requires you to specify either dark mode or light mode, by applying the `dark-mode` or `light-mode` class to the `body` element. To do this, add the following code to your `LocalSettings.php` file:
 
