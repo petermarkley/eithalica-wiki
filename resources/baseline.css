@@ -1,0 +1,19 @@
+.dark-mode .mw-parser-output a.extiw, .dark-mode .mw-parser-output a.external,
+.dark-mode .mw-parser-output a.extiw:visited, .dark-mode .mw-parser-output a.external:visited {
+	color: #c3823e;
+}
+.light-mode .mw-parser-output a.extiw, .light-mode .mw-parser-output a.external,
+.light-mode .mw-parser-output a.extiw:visited, .light-mode .mw-parser-output a.external:visited {
+	color: #c3823e;
+}
+.dark-mode .mw-parser-output a.extiw:hover, .dark-mode .mw-parser-output a.external:hover,
+.dark-mode .mw-parser-output a.extiw:active, .dark-mode .mw-parser-output a.external:active,
+.dark-mode .mw-parser-output a.extiw:focus, .dark-mode .mw-parser-output a.external:focus {
+	color: #cea757;
+}
+.light-mode .mw-parser-output a.extiw:hover, .light-mode .mw-parser-output a.external:hover,
+.light-mode .mw-parser-output a.extiw:active, .light-mode .mw-parser-output a.external:active,
+.light-mode .mw-parser-output a.extiw:focus, .light-mode .mw-parser-output a.external:focus {
+	color: #cea757;
+}
+

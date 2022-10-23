@@ -1,0 +1,41 @@
+div.drawer-frame {
+	overflow: hidden;
+}
+div.drawer-content {
+	margin-top: 0%;
+	opacity: 1;
+	max-height: 10000in;
+	transition: margin-top 0.5s ease-out 0s, opacity 0.5s ease-out 0s, max-height 0s linear 0s;
+}
+div.drawer-content-closed {
+	margin-top: -100%;
+	opacity: 0;
+	max-height: 0in;
+	transition: margin-top 0.5s ease-out 0s, opacity 0.5s ease-out 0s, max-height 0s linear 0.5s;
+}
+button.drawer-handle {
+	background: none;
+	border: none;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	height: 1.2em;
+	cursor: pointer;
+	transition-property: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+	transform: scaleY(-1.0);
+}
+button.drawer-handle>svg {
+	height: 1.2em;
+	width: auto;
+}
+button.drawer-handle-closed {
+	transform: scaleY(1.0);
+}
+

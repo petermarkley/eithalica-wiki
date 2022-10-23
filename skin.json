@@ -52,7 +52,10 @@
 				"mobile"
 			],
 			"styles": [
-				"resources/skin.less"
+				"resources/skin.less",
+				"resources/baseline.css",
+				"resources/main.css",
+				"resources/dark_mode.css"
 			]
 		},
 		"skins.eithalica": {

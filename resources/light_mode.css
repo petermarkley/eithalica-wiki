@@ -1,0 +1,105 @@
+/*
+
+Background Colors
+	- #f0e8d1  (basic)
+	- #dfcfba  (one shade darker)
+	
+	- #e3c8ac  (primary highlight)
+
+Text Colors
+	- #8f683f  (basic)
+	- #c3823e  (primary highlight)
+	- #cea757  (secondary highlight)
+
+*/
+.light-mode {
+	color: #8f683f;
+	background-color: #f0e8d1;
+}
+.light-mode a {
+	color: #c3823e;
+}
+.light-mode a:hover, .light-mode a:active, .light-mode a:focus {
+	color: #cea757;
+}
+.light-mode div#main-logo-outline {
+	color: #f0e8d1;
+}
+.light-mode div#body-wrap {
+	background:
+		url("/assets/orn/background-frame-top-light.png")    center top    / 100% auto no-repeat ,
+		url("/assets/orn/background-frame-bottom-light.png") center bottom / 100% auto no-repeat;
+}
+.light-mode .menu-mobile>a {
+	border-bottom: 2px solid #dfcfba;
+}
+.light-mode .menu ul>li>a {
+	background-color: #dfcfba;
+}
+.light-mode .menu ul>li>a:hover, .light-mode .menu ul>li>a:active, .light-mode .menu ul>li>a:focus {
+	background-color: #e3c8ac;
+}
+.light-mode .menu ul>li.active>a, .light-mode .menu-icon {
+	background: none;
+	border: 2px solid #8f683f;
+}
+.light-mode .menu ul>li.active>a:hover,      .light-mode .menu ul>li.active>a:active,      .light-mode .menu ul>li.active>a:focus,
+.light-mode .menu-mobile>a:hover>.menu-icon, .light-mode .menu-mobile>a:active>.menu-icon, .light-mode .menu-mobile>a:focus>.menu-icon {
+	background: none;
+	border: 2px solid #c3823e;
+}
+.light-mode .menu-icon>span {
+	background-color: #8f683f;
+}
+.light-mode .menu-mobile>a:hover>.menu-icon>span, .light-mode .menu-mobile>a:active>.menu-icon>span, .light-mode .menu-mobile>a:focus>.menu-icon>span {
+	background-color: #c3823e;
+}
+.light-mode .menu-mobile-content>ul {
+	background-color: #f0e8d1;
+	border-left: 2px solid #dfcfba;
+	border-right: 2px solid #dfcfba;
+	border-bottom: 2px solid #dfcfba;
+}
+.light-mode div.copy-main {
+	background: url("/assets/orn/background-fill-light.png") center center / auto 100% no-repeat;
+}
+.light-mode div.copy-main-wide {
+	background: url("/assets/orn/background-fill-light.png") center center / 100% auto no-repeat;
+}
+.light-mode .panel {
+	background-color: #dfcfba;
+}
+.light-mode #progress_tracker progress {
+	border: 2px solid #8f683f;
+}
+/*
+	WARNING: UNDOCUMENTED WEBKIT REQUIREMENTS!
+	
+	As of 2022/08/16, Webkit browsers do NOT recognize these CSS rules if either of the following supposedly correct CSS notations are used:
+		1. Using the element name 'progress' in the rule selector.
+		2. Combining multiple selectors into one rule with a comma-separated list.
+	As long as we write them separately and use a hanging pseudo-class, it will work. Documentation online is WRONG.
+*/
+.light-mode #progress_tracker ::-webkit-progress-value {
+	background-color: #8f683f !important;
+}
+.light-mode #progress_tracker ::-moz-progress-bar {
+	background-color: #8f683f !important;
+}
+.light-mode a.large-link, .light-mode ul.copy-social a, .light-mode .menu a {
+	color: #8f683f;
+}
+.light-mode a.large-link:hover,     .light-mode a.large-link:active,     .light-mode a.large-link:focus,
+.light-mode ul.copy-social a:hover, .light-mode ul.copy-social a:active, .light-mode ul.copy-social a:focus,
+.light-mode .menu a:hover,          .light-mode .menu a:active,          .light-mode .menu a:focus {
+	color: #c3823e;
+}
+.light-mode div#microblog li.microblog-post {
+	border-bottom: 1px solid rgba(143,104,63,0.5);
+}
+.light-mode div#microblog li.microblog-pinned {
+	border-bottom: 2px solid rgba(143,104,63,0.5);
+}
+.light-mode .ratings td, .light-mode .ratings th {
+	border-color: #8f683f;
+}
