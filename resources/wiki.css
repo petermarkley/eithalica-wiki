@@ -33,12 +33,13 @@
 	display: grid;
 	gap: 12px;
 	grid-template-columns: min-content auto min-content;
+	align-items: end;
 }
 .dark-mode .wiki-nav {
-	border-bottom: 2px solid #a28b72;
+	border-bottom: 2px solid #2d2b29;
 }
 .light-mode .wiki-nav {
-	border-bottom: 2px solid #8f683f;
+	border-bottom: 2px solid #dfcfba;
 }
 .wiki-nav .tab-views {
 	grid-column-start: 1;
@@ -117,7 +118,7 @@
 .wiki-nav ul.page-tabs.tab-actions>li>a {
 	display: block;
 	border-radius: 0;
-	margin-bottom: 2px;
+	margin-bottom: 5px;
 	padding-bottom: 4px;
 }
 .wiki-nav ul.page-tabs.tab-actions>li:first-child>a {
@@ -171,5 +172,77 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	padding: 6px;
+	border-top-left-radius: 18px;
+	border-top-right-radius: 18px;
+}
+.dark-mode .wiki-search {
+	background-color: #2d2b29;
+}
+.light-mode .wiki-search {
+	background-color: #dfcfba;
+}
+@media only screen and (max-width: 600px) {
+	.wiki-search {
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+}
+.wiki-search #searchInput {
+	appearance: none;
+	display: block;
+	margin-right: 6px;
+	border-radius: 18px;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	border: none;
+	padding: 0 12px;
+	width: 20vw;
+}
+.wiki-search #searchInput:focus-visible {
+	outline: none;
+}
+.dark-mode .wiki-search #searchInput {
+	background-color: #1c1b1a;
+}
+/*.dark-mode .wiki-search #searchInput:focus-visible {
+	border: 2px solid #c3823e;
+}*/
+.light-mode .wiki-search #searchInput {
+	background-color: #f0e8d1;
+}
+/*.light-mode .wiki-search #searchInput:focus-visible {
+	border: 2px solid #c3823e;
+}*/
+.wiki-search #searchButton {
+	appearance: none;
+	display: block;
+	border-radius: 18px;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 0 12px;
+}
+.wiki-search #searchButton {
+	outline: none;
+}
+.dark-mode .wiki-search #searchButton {
+	border: 2px solid #a28b72;
+}
+.dark-mode .wiki-search #searchButton:hover, .dark-mode .wiki-search #searchButton:active, .dark-mode .wiki-search #searchButton:focus {
+	border: 2px solid #c3823e;
+	color: #c3823e;
+}
+.light-mode .wiki-search #searchButton {
+	border: 2px solid #8f683f;
+}
+.light-mode .wiki-search #searchButton:hover, .light-mode .wiki-search #searchButton:active, .light-mode .wiki-search #searchButton:focus {
+	border: 2px solid #c3823e;
+	color: #c3823e;
 }
 
