@@ -74,14 +74,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 		<div class="wiki-nav">
 			{{#data-portlets}}
-			<div class="page-tabs-container">
-				<ul class="page-tabs tab-views">
-					{{#data-views}}{{{html-items}}}{{/data-views}}
-				</ul>
-				<ul class="page-tabs tab-actions">
-					{{#data-actions}}{{{html-items}}}{{/data-actions}}
-				</ul>
-			</div>
+			<ul class="page-tabs tab-views">
+				{{#data-views}}{{{html-items}}}{{/data-views}}
+			</ul>
+			<ul class="page-tabs tab-actions">
+				{{#data-actions}}{{{html-items}}}{{/data-actions}}
+			</ul>
 			{{/data-portlets}}
 			{{#data-search-box}}
 			<form action="{{form-action}}" role="search" class="mw-portlet" id="p-search">

@@ -30,10 +30,8 @@
 }
 
 .wiki-nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: nowrap;
+	display: grid;
+	gap: 12px;
 }
 .dark-mode .wiki-nav {
 	border-bottom: 2px solid #a28b72;
@@ -41,12 +39,43 @@
 .light-mode .wiki-nav {
 	border-bottom: 2px solid #8f683f;
 }
-.wiki-nav .page-tabs-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	flex-wrap: wrap-reverse;
-	align-items: baseline;
+.wiki-nav .tab-views {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.wiki-nav .tab-actions {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.wiki-nav #p-search {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+@media only screen and (max-width: 845px) {
+	.wiki-nav .tab-views {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	.wiki-nav .tab-actions {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	.wiki-nav #p-search {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
 }
 .wiki-nav ul.page-tabs {
 	list-style-type: none;
@@ -55,12 +84,7 @@
 	justify-content: flex-start;
 	flex-wrap: nowrap;
 	padding: 0;
-	margin-right: 12px;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-.wiki-nav ul.page-tabs:last-child {
-	margin-right: 0;
+	margin: 0;
 }
 .wiki-nav ul.page-tabs.tab-actions {
 	flex-wrap: wrap;
