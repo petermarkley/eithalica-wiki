@@ -246,3 +246,88 @@
 	color: #c3823e;
 }
 
+div.suggestions {
+	border-bottom-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+	margin-top: 6px;
+	padding: 3px;
+	box-sizing: border-box;
+}
+.dark-mode div.suggestions {
+	background-color: #1c1b1a;
+	color: #a28b72;
+	border: 2px solid #2d2b29;
+}
+.light-mode div.suggestions {
+	background-color: #f0e8d1;
+	color: #8f683f;
+	border: 2px solid #dfcfba;
+}
+div.suggestions-results {
+	border: none;
+}
+.dark-mode .suggestions-results {
+	background-color: #1c1b1a;
+	color: #a28b72;
+}
+.light-mode .suggestions-results {
+	background-color: #f0e8d1;
+	color: #8f683f;
+}
+div.suggestions-result {
+	border: none;
+	padding: 3px;
+	margin: 0 0 3px 0;
+	border-radius: 6px;
+}
+div.suggestion-result:last-child {
+	margin-bottom: 0;
+}
+.dark-mode .suggestions-result {
+	background-color: #2d2b29;
+	color: #a28b72;
+}
+.light-mode .suggestions-result {
+	background-color: #dfcfba;
+	color: #8f683f;
+}
+div.suggestions-special {
+	border: none;
+	margin: 0;
+	padding: 3px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.dark-mode .suggestions-special {
+	background-color: #2d2b29;
+	color: #a28b72;
+}
+.light-mode .suggestions-special {
+	background-color: #dfcfba;
+	color: #8f683f;
+}
+.dark-mode .suggestions-result-current {
+	background-color: #3c2d1c;
+	color: #c3823e;
+}
+.light-mode .suggestions-result-current {
+	background-color: #e3c8ac;
+	color: #c3823e;
+}
+.dark-mode div.suggestions-special div.special-query, .dark-mode div.suggestions-special div.special-label {
+	color: #a28b72;
+}
+.dark-mode div.suggestions-result-current div.special-label, .dark-mode div.suggestions-result-current div.special-query {
+	background-color: none;
+	color: #c3823e;
+}
+.light-mode div.suggestions-special div.special-query, .light-mode div.suggestions-special div.special-label {
+	color: #8f683f;
+}
+.light-mode div.suggestions-result-current div.special-label, .light-mode div.suggestions-result-current div.special-query {
+	background-color: none;
+	color: #c3823e;
+}
+
