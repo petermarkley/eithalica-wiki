@@ -32,6 +32,7 @@
 .wiki-nav {
 	display: grid;
 	gap: 12px;
+	grid-template-columns: min-content auto min-content;
 }
 .dark-mode .wiki-nav {
 	border-bottom: 2px solid #a28b72;
@@ -56,6 +57,9 @@
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 @media only screen and (max-width: 845px) {
 	.wiki-nav .tab-views {
@@ -163,5 +167,9 @@
 	border-right: 2px solid #c3823e;
 }
 
-
+.wiki-search {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
 
