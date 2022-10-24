@@ -55,7 +55,9 @@
 				"resources/skin.less",
 				"resources/baseline.css",
 				"resources/main.css",
-				"resources/dark_mode.css"
+				"resources/light_mode.css",
+				"resources/dark_mode.css",
+				"resources/wiki.css"
 			]
 		},
 		"skins.eithalica": {

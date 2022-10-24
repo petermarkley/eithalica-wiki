@@ -16,4 +16,8 @@
 .light-mode .mw-parser-output a.extiw:focus, .light-mode .mw-parser-output a.external:focus {
 	color: #cea757;
 }
+h1.firstHeading {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 

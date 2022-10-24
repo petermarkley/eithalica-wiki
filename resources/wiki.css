@@ -1,0 +1,135 @@
+.menu-desktop ul.menu-user {
+	font-size: inherit;
+	font-size: 14pt;
+	line-height: 16pt;
+	margin-top: 18px;
+}
+.menu-desktop ul.menu-user>li {
+	margin: 0 1px 0 0;
+}
+.menu-desktop ul.menu-user a {
+	padding: 6px 12px 4px 12px;
+	border-radius: 0;
+	white-space: nowrap;
+}
+.menu-desktop ul.menu-user>li:first-child>a {
+	border-top-left-radius: 18px;
+	border-bottom-left-radius: 18px;
+}
+.menu-desktop ul.menu-user>li:last-child>a {
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+}
+.menu-mobile-content > ul {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.menu-mobile-content > ul:last-child {
+	border-bottom-left-radius: 41px;
+	border-bottom-right-radius: 41px;
+}
+
+.wiki-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.dark-mode .wiki-nav {
+	border-bottom: 2px solid #a28b72;
+}
+.light-mode .wiki-nav {
+	border-bottom: 2px solid #8f683f;
+}
+.wiki-nav .page-tabs-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap-reverse;
+	align-items: baseline;
+}
+.wiki-nav ul.page-tabs {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	padding: 0;
+	margin-right: 12px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.wiki-nav ul.page-tabs:last-child {
+	margin-right: 0;
+}
+.wiki-nav ul.page-tabs.tab-actions {
+	flex-wrap: wrap;
+}
+.wiki-nav ul.page-tabs>li {
+	margin-left: 6px;
+}
+.wiki-nav ul.page-tabs>li:first-child {
+	margin-left: 0;
+}
+.wiki-nav ul.page-tabs>li>a {
+	padding: 6px 12px 8px 12px;
+}
+.dark-mode .wiki-nav ul.page-tabs>li>a {
+	background-color: #2d2b29;
+	color: #a28b72;
+}
+.wiki-nav ul.page-tabs.tab-views>li>a {
+	display: block;
+	position: relative;
+	bottom: -2px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+
+}
+.wiki-nav ul.page-tabs.tab-actions>li>a {
+	display: block;
+	border-radius: 18px;
+	margin-bottom: 2px;
+	padding-bottom: 4px;
+}
+.dark-mode .wiki-nav ul.page-tabs>li>a:hover, .dark-mode .wiki-nav ul.page-tabs>li>a:active, .dark-mode .wiki-nav ul.page-tabs>li>a:focus {
+	background-color: #3c2d1c;
+	color: #c3823e;
+}
+.dark-mode .wiki-nav ul.page-tabs.tab-views>li.selected>a {
+	background-color: #1c1b1a;
+	color: #a28b72;
+	border-left: 2px solid #a28b72;
+	border-top: 2px solid #a28b72;
+	border-right: 2px solid #a28b72;
+}
+.dark-mode .wiki-nav ul.page-tabs.tab-views>li.selected>a:hover, .dark-mode .wiki-nav ul.page-tabs>li.selected>a:active, .dark-mode .wiki-nav ul.page-tabs>li.selected>a:focus {
+	color: #c3823e;
+	border-left: 2px solid #c3823e;
+	border-top: 2px solid #c3823e;
+	border-right: 2px solid #c3823e;
+}
+.light-mode .wiki-nav ul.page-tabs>li>a {
+	background-color: #dfcfba;
+	color: #8f683f;
+}
+.light-mode .wiki-nav ul.page-tabs>li>a:hover, .light-mode .wiki-nav ul.page-tabs>li>a:active, .light-mode .wiki-nav ul.page-tabs>li>a:focus {
+	background-color: #e3c8ac;
+	color: #c3823e;
+}
+.light-mode .wiki-nav ul.page-tabs>li.selected>a {
+	background-color: #f0e8d1;
+	color: #8f683f;
+	border-left: 2px solid #8f683f;
+	border-top: 2px solid #8f683f;
+	border-right: 2px solid #8f683f;
+}
+.light-mode .wiki-nav ul.page-tabs>li.selected>a:hover, .light-mode .wiki-nav ul.page-tabs>li.selected>a:active, .light-mode .wiki-nav ul.page-tabs>li.selected>a:focus {
+	color: #c3823e;
+	border-left: 2px solid #c3823e;
+	border-top: 2px solid #c3823e;
+	border-right: 2px solid #c3823e;
+}
+
+
+

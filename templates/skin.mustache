@@ -43,10 +43,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				{{#data-portlets}}
 				<ul>
 					{{#data-custom}}{{{html-items}}}{{/data-custom}}
-					{{#data-namespaces}}{{{html-items}}}{{/data-namespaces}}
-					{{#data-variants}}{{{html-items}}}{{/data-variants}}
-					{{#data-views}}{{{html-items}}}{{/data-views}}
-					{{#data-actions}}{{{html-items}}}{{/data-actions}}
+				</ul>
+				<ul class="menu-user">
 					{{#data-user-menu}}{{{html-items}}}{{/data-user-menu}}
 				</ul>
 				{{/data-portlets}}
@@ -65,10 +63,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						{{#data-portlets}}
 						<ul>
 							{{#data-custom}}{{{html-items}}}{{/data-custom}}
-							{{#data-namespaces}}{{{html-items}}}{{/data-namespaces}}
-							{{#data-variants}}{{{html-items}}}{{/data-variants}}
-							{{#data-views}}{{{html-items}}}{{/data-views}}
-							{{#data-actions}}{{{html-items}}}{{/data-actions}}
+						</ul>
+						<ul class="menu-user">
 							{{#data-user-menu}}{{{html-items}}}{{/data-user-menu}}
 						</ul>
 						{{/data-portlets}}
@@ -76,6 +72,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 			</div>
 		</div>
+		<div class="wiki-nav">
+			{{#data-portlets}}
+			<div class="page-tabs-container">
+				<ul class="page-tabs tab-views">
+					{{#data-views}}{{{html-items}}}{{/data-views}}
+				</ul>
+				<ul class="page-tabs tab-actions">
+					{{#data-actions}}{{{html-items}}}{{/data-actions}}
+				</ul>
+			</div>
+			{{/data-portlets}}
 			{{#data-search-box}}
 			<form action="{{form-action}}" role="search" class="mw-portlet" id="p-search">
 				<input type="hidden" name="title" value="{{page-title}}">
@@ -86,23 +93,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				{{{html-button-search}}}
 			</form>
 			{{/data-search-box}}
+		</div>
 		<div class="mw-body" id="content" role="main">
-			<div id="siteNotice">{{{html-site-notice}}}</div>
-			{{{html-user-message}}}
-			<div class="mw-indicators mw-body-content">
-			{{#array-indicators}}
-			<div id="{{id}}" class="{{class}}">{{{html}}}</div>
-			{{/array-indicators}}
-			</div>
 			{{{html-title-heading}}}
-			<div id="siteSub">{{msg-tagline}}</div>
 			<div class="mw-body-content">
 				<div id="contentSub">
 					{{{html-subtitle}}}
 					{{{html-undelete-link}}}
 				</div>
 				{{{html-body-content}}}
-				<!-- todo: replace with .mixin-clearfix -->
 				<div class="visualClear"></div>
 				{{#data-portlets}}
 				{{>CategoryPortlet}}
