@@ -341,7 +341,7 @@ div.copy-main-wide {
 div.copy-main-first {
 	padding-top: calc( 20% + 96px );
 }
-div.copy-main-last {
+main {
 	padding-bottom: 104px; /* 72px + 32px */
 }
 .panel {
@@ -671,7 +671,7 @@ p#copyright {
 	div.copy-main-first {
 		padding-top: calc( 20% + 24px );
 	}
-	div.copy-main-last {
+	main {
 		padding-bottom: calc( 20vw + 24px );
 	}
 	h1#copy-hook {
