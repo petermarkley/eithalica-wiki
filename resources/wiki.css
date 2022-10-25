@@ -615,3 +615,22 @@ div.oo-ui-menuSelectWidget {
 	border: 2px solid #dfcfba;
 }
 
+textarea {
+	appearance: none;
+	display: block;
+	padding: 12px;
+	border-radius: 12px;
+	font-family: monospace;
+	font-weight: bold;
+}
+.dark-mode textarea {
+	background-color: #2d2b29;
+	color: #a28b72;
+	border: 2px solid #a28b72;
+}
+.light-mode textarea {
+	background-color: #dfcfba;
+	color: #8f683f;
+	border: 2px solid #8f683f;
+}
+
