@@ -44,9 +44,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<ul>
 					{{#data-custom}}{{{html-items}}}{{/data-custom}}
 				</ul>
+				{{#data-user-menu}}
 				<ul class="menu-user">
-					{{#data-user-menu}}{{{html-items}}}{{/data-user-menu}}
+					{{{html-items}}}
 				</ul>
+				{{/data-user-menu}}
 				{{/data-portlets}}
 			</div>
 			<div class="menu-mobile">
@@ -64,9 +66,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<ul>
 							{{#data-custom}}{{{html-items}}}{{/data-custom}}
 						</ul>
+						{{#data-user-menu}}
 						<ul class="menu-user">
-							{{#data-user-menu}}{{{html-items}}}{{/data-user-menu}}
+							{{{html-items}}}
 						</ul>
+						{{/data-user-menu}}
 						{{/data-portlets}}
 					</div>
 				</div>

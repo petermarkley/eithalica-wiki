@@ -34,9 +34,12 @@
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 }
-.menu-mobile-content > ul:last-child {
+.menu-mobile-content > ul:last-child, .nologin .menu-mobile-content > ul {
 	border-bottom-left-radius: 41px;
 	border-bottom-right-radius: 41px;
+}
+.nologin ul.menu-user {
+	display: none;
 }
 
 .wiki-nav {
@@ -139,6 +142,9 @@
 .wiki-nav ul.page-tabs.tab-actions>li:last-child>a {
 	border-top-right-radius: 18px;
 	border-bottom-right-radius: 18px;
+}
+.nologin ul.tab-actions {
+	display: none;
 }
 .dark-mode .wiki-nav ul.page-tabs>li>a:hover, .dark-mode .wiki-nav ul.page-tabs>li>a:active, .dark-mode .wiki-nav ul.page-tabs>li>a:focus {
 	background-color: #3c2d1c;
