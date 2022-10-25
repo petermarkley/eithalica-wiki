@@ -342,3 +342,130 @@ div.suggestions-special {
 	color: #c3823e;
 }
 
+.mw-search-profile-tabs {
+	border: none;
+	border-radius: 8px;
+	padding: 8px;
+}
+.dark-mode .mw-search-profile-tabs {
+	background-color: #2d2b29;
+	color: #a28b72;
+}
+.light-mode .mw-search-profile-tabs {
+	background-color: #dfcfba;
+	color: #8f683f;
+}
+.search-types .current a {
+	border-radius: 8px;
+	padding: 6px;
+	cursor: pointer;
+}
+.dark-mode .search-types .current a {
+	border: 2px solid #c3823e;
+	color: #c3823e;
+}
+.dark-mode .search-types .current a:hover, .dark-mode .search-types .current a:active, .dark-mode .search-types .current a:focus {
+	border: 2px solid #cea757;
+	color: #cea757;
+}
+.light-mode .search-types .current a {
+	border: 2px solid #c3823e;
+	color: #c3823e;
+}
+.light-mode .search-types .current a:hover, .light-mode .search-types .current a:active, .light-mode .search-types .current a:focus {
+	border: 2px solid #cea757;
+	color: #cea757;
+}
+.oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field {
+	padding: 6px;
+	border-radius: 25px;
+	display: grid;
+	grid-template-columns: auto min-content;
+}
+.dark-mode .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field {
+	background-color: #1c1b1a;
+	color: #a28b72;
+	border: 2px solid #a28b72;
+}
+.light-mode .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field {
+	background-color: #f0e8d1;
+	color: #8f683f;
+	border: 2px solid #8f683f;
+}
+.oo-ui-actionFieldLayout-input {
+	display: block;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.oo-ui-actionFieldLayout-button {
+	display: block;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	width: initial;
+}
+.oo-ui-textInputWidget input {
+	height: initial;
+}
+.oo-ui-textInputWidget .oo-ui-inputWidget-input {
+	background: none;
+	border: none;
+}
+.oo-ui-textInputWidget.oo-ui-widget-enabled .oo-ui-inputWidget-input:focus {
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+.dark-mode .oo-ui-textInputWidget .oo-ui-inputWidget-input {
+	color: #a28b72;
+}
+.light-mode .oo-ui-textInputWidget .oo-ui-inputWidget-input {
+	color: #8f683f;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+	border: none;
+	border-radius: 19px;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:focus-visible,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:focus {
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+.dark-mode .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+	background-color: #2d2b29;
+	color: #a28b72;
+}
+.dark-mode .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:hover,
+.dark-mode .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active,
+.dark-mode .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:focus {
+	background-color: #3c2d1c;
+	color: #c3823e;
+	border: none;
+}
+.light-mode .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+	background-color: #dfcfba;
+	color: #8f683f;
+}
+.light-mode .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:hover,
+.light-mode .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:active,
+.light-mode .oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button:focus {
+	background-color: #e3c8ac;
+	color: #c3823e;
+	border: none;
+}
+.dark-mode .oo-ui-indicator-clear {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%20%3Ctitle%3E%20clear%20%3C%2Ftitle%3E%20%3Cpath%20d%3D%22M10%200a10%2010%200%201%200%2010%2010A10%2010%200%200%200%2010%200zm5.66%2014.24-1.41%201.41L10%2011.41l-4.24%204.25-1.42-1.42L8.59%2010%204.34%205.76l1.42-1.42L10%208.59l4.24-4.24%201.41%201.41L11.41%2010z%22%20fill%3D%22%23a28b72%22%2F%3E%20%3C%2Fsvg%3E");
+}
+.light-mode .oo-ui-indicator-clear {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%20%3Ctitle%3E%20clear%20%3C%2Ftitle%3E%20%3Cpath%20d%3D%22M10%200a10%2010%200%201%200%2010%2010A10%2010%200%200%200%2010%200zm5.66%2014.24-1.41%201.41L10%2011.41l-4.24%204.25-1.42-1.42L8.59%2010%204.34%205.76l1.42-1.42L10%208.59l4.24-4.24%201.41%201.41L11.41%2010z%22%20fill%3D%22%238f683f%22%2F%3E%20%3C%2Fsvg%3E");
+}
+.oo-ui-textInputWidget.oo-ui-widget-enabled > .oo-ui-iconElement-icon {
+	opacity: 1;
+}
+.dark-mode .oo-ui-icon-search, .dark-mode .mw-ui-icon-search::before {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E search %3C/title%3E %3Cpath d=%22M12.2 13.6a7 7 0 1 1 1.4-1.4l5.4 5.4-1.4 1.4-5.4-5.4zM3 8a5 5 0 1 0 10 0A5 5 0 1 0 3 8z%22 fill=%22%23a28b72%22/%3E %3C/svg%3E");
+}
+.light-mode .oo-ui-icon-search, .dark-mode .mw-ui-icon-search::before {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2220%22 height=%2220%22 viewBox=%220 0 20 20%22%3E %3Ctitle%3E search %3C/title%3E %3Cpath d=%22M12.2 13.6a7 7 0 1 1 1.4-1.4l5.4 5.4-1.4 1.4-5.4-5.4zM3 8a5 5 0 1 0 10 0A5 5 0 1 0 3 8z%22 fill=%22%238f683f%22/%3E %3C/svg%3E");
+}
+
