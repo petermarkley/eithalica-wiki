@@ -505,3 +505,113 @@ div.oo-ui-menuSelectWidget {
 	border: 2px solid #8f683f;
 }
 
+#mw-createaccount-cta {
+	background: none;
+	padding-top: 0;
+	margin-top: 21px;
+	width: initial;
+}
+.mw-ui-input {
+	border-radius: 25px;
+	padding: 6px 12px;
+}
+.mw-ui-input:focus, .mw-ui-input:focus-visible {
+	outline: none;
+	box-shadow: none;
+}
+.dark-mode .mw-ui-input {
+	background-color: #1c1b1a;
+	color: #a28b72;
+	border: 2px solid #a28b72;
+}
+.light-mode .mw-ui-input {
+	background-color: #f0e8d1;
+	color: #8f683f;
+	border: 2px solid #8f683f;
+}
+.dark-mode .mw-ui-input::placeholder {
+	color: #a28b72;
+	opacity: 0.5;
+}
+.light-mode .mw-ui-input::placeholder {
+	color: #8f683f;
+	opacity: 0.5;
+}
+.mw-ui-checkbox [type="checkbox"] + label::before {
+	content: initial;
+}
+.mw-ui-checkbox [type="checkbox"] {
+	border-radius: 100%;
+	appearance: none;
+	opacity: 1;
+}
+.mw-ui-checkbox [type="checkbox"]:checked::before {
+	content: "✔";
+	position: absolute;
+	top: 0;
+	left: 0.3em;
+}
+.dark-mode .mw-ui-checkbox [type="checkbox"] {
+	background-color: #1c1b1a;
+	color: #a28b72;
+	border: 2px solid #a28b72;
+}
+.light-mode .mw-ui-checkbox [type="checkbox"] {
+	background-color: #f0e8d1;
+	color: #8f683f;
+	border: 2px solid #8f683f;
+}
+.mw-ui-button.mw-ui-progressive:not(:disabled), .mw-ui-button.mw-ui-progressive:disabled, .mw-ui-button {
+	border: none;
+	padding: 6px;
+	border-radius: 25px;
+}
+.dark-mode .mw-ui-button, .dark-mode #mw-createaccount-join {
+	background-color: #2d2b29;
+	color: #a28b72;
+}
+.dark-mode .mw-ui-button:hover, .dark-mode .mw-ui-button:active, .dark-mode .mw-ui-button:focus,
+.dark-mode #mw-createaccount-join:hover, .dark-mode #mw-createaccount-join:active, .dark-mode #mw-createaccount-join:focus {
+	background-color: #3c2d1c;
+	color: #c3823e;
+}
+.light-mode .mw-ui-button, .light-mode #mw-createaccount-join {
+	background-color: #dfcfba;
+	color: #8f683f;
+}
+.light-mode .mw-ui-button:hover, .light-mode .mw-ui-button:active, .light-mode .mw-ui-button:focus,
+.light-mode #mw-createaccount-join:hover, .light-mode #mw-createaccount-join:active, .light-mode #mw-createaccount-join:focus {
+	background-color: none;
+	color: #c3823e;
+}
+.dark-mode .mw-ui-button.mw-ui-progressive:not(:disabled) {
+	background: none;
+	color: #a28b72;
+	border: 2px solid #a28b72;
+}
+.dark-mode .mw-ui-button.mw-ui-progressive:not(:disabled):hover, .dark-mode .mw-ui-button.mw-ui-progressive:not(:disabled):active, .dark-mode .mw-ui-button.mw-ui-progressive:not(:disabled):focus {
+	background: none;
+	color: #c3823e;
+	border: 2px solid #c3823e;
+}
+.light-mode .mw-ui-button.mw-ui-progressive:not(:disabled) {
+	background: none;
+	color: #8f683f;
+	border: 2px solid #8f683f;
+}
+.light-mode .mw-ui-button.mw-ui-progressive:not(:disabled):hover, .light-mode .mw-ui-button.mw-ui-progressive:not(:disabled):active, .light-mode .mw-ui-button.mw-ui-progressive:not(:disabled):focus {
+	background: none;
+	color: #c3823e;
+	border: 2px solid #c3823e;
+}
+.dark-mode .mw-ui-button.mw-ui-progressive:disabled {
+	background-color: #1c1b1a;
+	color: #2d2b29;
+	border: 2px solid #2d2b29;
+}
+.light-mode .mw-ui-button.mw-ui-progressive:disabled {
+	background-color: #f0e8d1;
+	color: #dfcfba;
+	border: 2px solid #dfcfba;
+}
+
