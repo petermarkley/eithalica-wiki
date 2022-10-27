@@ -2,6 +2,8 @@
 
 This skin is designed for use on [Eithalica.world](https://eithalica.world). The wiki part of this site is meant to feel like a cohesive whole with the non-wiki parts, which influenced a lot of my technical choices.
 
+![Eithalica Wiki](screenshots/screenshot-1.png)
+
 ## Custom Top-Level Menu
 
 I wrote my own top-level menu in a JSON file, using this format. I recommend that you do the same, because the skin will probably (?) look a bit wrong without it:
