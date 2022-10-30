@@ -864,4 +864,12 @@ div.mw-body-content > div.mw-parser-output .infobox table tr>*>*:last-child {
 .light-mode .infobox td, .light-mode .infobox th {
 	border-color: #dfcfba;
 }
+#contentSub {
+	margin-left: 24px;
+	margin-bottom: 24px;
+	font-style: italic;
+}
+.mw-redirectedfrom::before {
+	content: "⤷";
+}
 
