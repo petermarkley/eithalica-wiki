@@ -708,11 +708,29 @@ input[type="radio"]:checked::before {
 div.mw-body-content>div.mw-parser-output ul {
 	margin: 30px 0 30px 42px;
 }
-div.mw-body-content>div.mw-parser-output ul ul {
-	margin: 0 0 0 30px;
-}
 .mw-parser-output li {
 	margin: 9px 0;
+}
+@media only screen and (max-width: 600px) {
+	.mw-parser-output p {
+		line-height: 18px;
+		margin: 6px 0;
+	}
+	.mw-parser-output p+p {
+		text-indent: 12px;
+	}
+	.mw-parser-output h1 {
+		margin-top: 28px;
+	}
+	div.mw-body-content > div.mw-parser-output ul {
+		margin: 20px 0 20px 28px;
+	}
+	.mw-parser-output li {
+		margin: 6px 0;
+	}
+}
+div.mw-body-content>div.mw-parser-output ul ul {
+	margin: 0 0 0 30px;
 }
 
 textarea {
@@ -873,3 +891,16 @@ div.mw-body-content > div.mw-parser-output .infobox table tr>*>*:last-child {
 	content: "⤷";
 }
 
+@media only screen and (max-width: 1100px) {
+	.infobox {
+		float: none;
+		margin-right: 0;
+		margin-left: 0;
+		width: 100%;
+	}
+	#toc, .toc {
+		display: block;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
