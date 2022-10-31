@@ -701,7 +701,7 @@ input[type="radio"]:checked::before {
 .mw-body-content p+p {
 	text-indent: 18px;
 }
-.mw-body-content h1 {
+h1 {
 	margin-top: 42px;
 	line-height: normal;
 }
