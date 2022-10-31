@@ -901,7 +901,7 @@ div.mw-body-content > div.mw-parser-output .infobox table tr>*>*:last-child {
 	font-style: italic;
 }
 .mw-redirectedfrom::before {
-	content: "⤷";
+	content: "⤷ ";
 }
 #filetoc {
 	background: none;
