@@ -735,6 +735,8 @@ div.mw-body-content>div.mw-parser-output ul ul {
 
 .mw-body-content img {
 	border-radius: 8px;
+	max-width: 100%;
+	height: auto;
 }
 textarea {
 	appearance: none;
