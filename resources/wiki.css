@@ -817,9 +817,9 @@ textarea {
 }
 .infobox-image img {
 	display: block;
-	width: 100%;
+	width: 550px;
 	height: auto;
-	max-width: 550px;
+	max-width: 100%;
 	margin: 0 auto;
 }
 .infobox table {
