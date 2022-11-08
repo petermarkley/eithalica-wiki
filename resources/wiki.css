@@ -822,6 +822,13 @@ textarea {
 	max-width: 100%;
 	margin: 0 auto;
 }
+.infobox-image>* {
+	display: block;
+	margin-bottom: 12px;
+}
+.infobox-image>*:last-child {
+	margin-bottom: 0;
+}
 .infobox table {
 	width: 100%;
 	margin-top: 12px;
