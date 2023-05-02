@@ -113,7 +113,7 @@ Write your own license or copyright notice like so in `LocalSettings.php`:
 				[
 					'id' => 'copyright'
 				],
-				"This page powered by <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.<br>Copyright &copy; 2022 Peter Markley. <a href=\"https://petermarkley.com\">Business Portfolio</a>"
+				"This page powered by <a href=\"https://www.mediawiki.org/\">MediaWiki</a>.<br>Copyright &copy; ".date("Y")." Peter Markley. <a href=\"https://petermarkley.com\">Business Portfolio</a>"
 			);
 		};
 	};
