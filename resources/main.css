@@ -351,6 +351,9 @@ div.copy-main-last {
 	width: 100%;
 	max-width: 1200px;
 }
+.panel-unflex {
+	width: auto;
+}
 .panel-presentation {
 	display: flex;
 	flex-direction: row;
