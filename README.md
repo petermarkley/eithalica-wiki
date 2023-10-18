@@ -43,11 +43,12 @@ I then retrieved that JSON from inside `LocalSettings.php` and wrote the content
 
 The skin template knows to look for and display this `custom` key inside the menu data.
 
-Note: You will need to edit this line depending on your directory structure:
-
-	$menu = json_decode(file_get_contents(dirname(dirname(dirname(__DIR__)))."/conf/menu.json"));
-
-(Each call to `dirname()` moves upward by one level in the directory structure from the location of your MediaWiki `index.php` script, similar to `../` in UNIX path notation.)
+> **Note**
+> You will need to edit this line depending on your directory structure:
+> 
+> `$menu = json_decode(file_get_contents(dirname(dirname(dirname(__DIR__)))."/conf/menu.json"));`
+> 
+> (Each call to `dirname()` moves upward by one level in the directory structure from the location of your MediaWiki `index.php` script, similar to `../` in UNIX path notation.)
 
 ## Dark or Light Mode?
 
@@ -123,4 +124,5 @@ You can remove the remaining footer links by accessing the associated `?title=Me
 - `?title=MediaWiki:Aboutsite`
 - `?title=MediaWiki:Disclaimers`
 
-(Note: To my disappointment, this is a special method that worked only with these footer links and did not necessarily apply to links elsewhere on the page.)
+> **Note**
+> To my disappointment, this is a special technique that worked only with these footer links and did not necessarily apply to links elsewhere on the page.
