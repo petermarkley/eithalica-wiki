@@ -43,7 +43,7 @@ I then retrieved that JSON from inside `LocalSettings.php` and wrote the content
 
 The skin template knows to look for and display this `custom` key inside the menu data.
 
-> **Note**
+> [!Note]
 > You will need to edit this line depending on your directory structure:
 > 
 > `$menu = json_decode(file_get_contents(dirname(dirname(dirname(__DIR__)))."/conf/menu.json"));`
@@ -124,5 +124,5 @@ You can remove the remaining footer links by accessing the associated `?title=Me
 - `?title=MediaWiki:Aboutsite`
 - `?title=MediaWiki:Disclaimers`
 
-> **Note**
+> [!Tip]
 > To my disappointment, this is a special technique that worked only with these footer links and did not necessarily apply to links elsewhere on the page.
