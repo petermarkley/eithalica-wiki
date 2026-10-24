@@ -103,3 +103,6 @@ Text Colors
 .light-mode .ratings td, .light-mode .ratings th {
 	border-color: #8f683f;
 }
+.light-mode #catlinks {
+	border-color: #dfcfba;
+}

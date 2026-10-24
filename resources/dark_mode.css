@@ -103,3 +103,6 @@ Text Colors
 .dark-mode .ratings td, .dark-mode .ratings th {
 	border-color: #a28b72;
 }
+.dark-mode #catlinks {
+	border-color: #2d2b29;
+}
