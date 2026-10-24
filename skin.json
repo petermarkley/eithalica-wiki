@@ -10,7 +10,7 @@
 	"license-name": "CC0-1.0",
 	"type": "skin",
 	"requires": {
-		"MediaWiki": ">= 1.38.0"
+		"MediaWiki": ">= 1.43.0"
 	},
 	"ValidSkinNames": {
 		"eithalica": {
@@ -46,7 +46,7 @@
 	},
 	"ResourceModules": {
 		"skins.eithalica.styles": {
-			"class": "ResourceLoaderSkinModule",
+			"class": "MediaWiki\\ResourceLoader\\SkinModule",
 			"targets": [
 				"desktop",
 				"mobile"
