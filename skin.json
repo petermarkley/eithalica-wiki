@@ -47,6 +47,9 @@
 	"ResourceModules": {
 		"skins.eithalica.styles": {
 			"class": "MediaWiki\\ResourceLoader\\SkinModule",
+			"features": {
+				"interface": true
+			},
 			"targets": [
 				"desktop",
 				"mobile"

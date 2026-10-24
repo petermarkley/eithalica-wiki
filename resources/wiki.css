@@ -41,6 +41,9 @@
 .nologin ul.menu-user {
 	display: none;
 }
+.printfooter {
+	display: none;
+}
 
 .wiki-nav {
 	display: grid;
